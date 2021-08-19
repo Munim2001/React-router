@@ -1,0 +1,11 @@
+ return(
+                            <div>
+                                <img src={flag} style = {style} className="card-img-top img-fluid"   alt="flag"/>
+                                <h1>Name : {name}</h1>
+                                <h2>Capital : {capital}</h2>
+                                <h3>Region : {region}</h3>
+                                <p>Currency : {country.currencies[0].name} Symbol : {country.currencies[0].symbol}</p>
+                                <p>Area : {area}</p>
+                                <p>Population : {population}</p>
+                            </div>
+                          )
